@@ -40,7 +40,7 @@ a {
 .title {
 	font-family: "Sacramento", Arial, serif;
 	font-size: 6em;
-	margin: 5% 0;
+	margin: 15% 0;
 }
 
 .secondary-color {
@@ -49,4 +49,11 @@ a {
 
 #navigation {
 	text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 4em;
+    margin: 25% 0;
+  }
 }
