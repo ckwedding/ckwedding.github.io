@@ -2,7 +2,7 @@ body, html {
 	background-image: url('../img/background.jpg');
 	background-position: center;
 	background-size: cover;
-	font-family: "Poppins", Arial, serif;
+	font-family: "Open Sans", Arial, serif;
 	height: 100%;
   	margin: 0;
   	width: 100%; 
@@ -25,7 +25,12 @@ hr {
  	width: 100%;
 }
 
-.content {
+.registry-content {
+	margin-top: 10%;
+}
+
+.details-content {
+	display: flex;
 	margin-top: 10%;
 }
 
@@ -51,6 +56,47 @@ hr {
 .registry img {
 	height: 150px;
 	width: 150px;
+}
+
+.left {
+	width: 50%;
+	border-right: 1px solid;
+}
+
+.left-date {
+	font-family: "Cormorant Garamond", Arial, serif;
+	font-size: 1.5em;
+}
+
+.left-title {
+	font-family: "Sacramento", Arial, serif;
+	font-size: 2em;
+}
+
+.right {
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.right a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.right-content {
+	width: 100%;
+}
+
+.right-title {
+	font-size: 1.2em;
+}
+
+.right-url {
+	width: 250px;
+	border: 1px solid;
+	margin: 0 auto;
+	padding: 10px;
 }
 
 #navigation {
@@ -87,6 +133,18 @@ hr {
   .registry {display: block;}
   .registry.web {display: none;}
   .registry.mobile {display: block;}
+}
+
+@media screen and (max-width: 600px) {
+  .details-content {display: block;}
+  .left {
+  	width: 100%;
+  	border: none;
+  }
+  .right {
+  	margin-top: 20px;
+  	width: 100%;
+  }
 }
 
 @media screen and (max-width: 600px) {

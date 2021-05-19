@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Cindy and Kyu 2022 Wedding.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Venue</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cormorant Garamond&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" id="background" href="css/base.css">
+</head>
+<body>
+  <div class="center">
+    <div class="topnav" id="navbar">
+      <a href="index.html">Home</a>
+      <a href="registry.html">Registry</a>
+      <a href="details.html" class="active">Details</a>
+      <a href="photos.html">Photos</a>
+      <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <hr>
+    <div>DETAILS</div>
+    <hr>
+
+    <div class="details-content">
+      <!-- <p>Here's what to expect during our wedding weekend. We can't wait to celebrate with you!</p> -->
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.7269457542634!2d-122.0842167849391!3d37.72608667976837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f8dfe6a16c263%3A0x58942b23b4729cf9!2sRedwood%20Canyon%20by%20Wedgewood%20Weddings!5e0!3m2!1sen!2sus!4v1621395221287!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+      <div class="left">
+      <div class="left-date">SATURDAY, APRIL 30, 2022</div>
+      <p></p>
+      <div class="left-title">Ceremony</div>
+      5:30PM
+      <p></p>
+      <div class="left-title">Reception</div>
+      TBD
+      </div>
+      <div class="right">
+        <div class="right-content">
+          <div class="right-title">Redwood Canyon by Wedgewood Weddings</div>
+          17007 Redwood Rd, Castro Valley, CA 94546
+          <p></p>
+          <div class="right-url">
+            <a href="https://g.page/RedwoodCanyon-WedgewoodWeddings?share" target="_blank"><div>MAP</div></a>
+          </div>
+          <p></p>
+          <div class="right-url">
+            <a href="https://www.wedgewoodweddings.com/venue/northern-california/redwood-canyon" target="_blank"><div>WEBSITE</div></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      var x = document.getElementById("navbar");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
+</body>
