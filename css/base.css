@@ -25,6 +25,10 @@ hr {
  	width: 100%;
 }
 
+.content {
+	margin-top: 10%;
+}
+
 .title {
 	font-family: "Sacramento", Arial, serif;
 	font-size: 6em;
@@ -33,6 +37,20 @@ hr {
 
 .secondary-color {
 	color: #ffd700;
+}
+
+.registry {
+	display: inline;
+	margin: 10px;
+}
+
+.registry.mobile {
+	display: none;
+}
+
+.registry img {
+	height: 150px;
+	width: 150px;
 }
 
 #navigation {
@@ -66,9 +84,9 @@ hr {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:hover {color: #fff;}
-  .topnav {height: 20%;}
-  .topnav a {padding: 5px 10px;}
+  .registry {display: block;}
+  .registry.web {display: none;}
+  .registry.mobile {display: block;}
 }
 
 @media screen and (max-width: 600px) {
@@ -77,6 +95,9 @@ hr {
     float: right;
     display: block;
   }
+  .topnav a:hover {color: #fff;}
+  .topnav {height: 15%;}
+  .topnav a {padding: 5px 10px;}
 }
 
 @media screen and (max-width: 600px) {
