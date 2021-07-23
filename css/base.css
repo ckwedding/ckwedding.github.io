@@ -136,6 +136,14 @@ hr {
 	width: 60%;
 }
 
+.horizontal-pics img {
+	width: 45%;
+}
+
+.vertical-pics img {
+	width: 45%;
+}
+
 @media screen and (max-width: 600px) {
   .registry {display: block;}
   .registry.web {display: none;}
