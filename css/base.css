@@ -18,26 +18,27 @@ hr {
 .center {
 	background-color: rgba(0, 0, 0, 0.3);
 	color: #fff;
-	height: 100%;
 	justify-content: center;
   	position: absolute;
   	text-align: center;
+  height: 100%;
  	width: 100%;
 }
 
 .registry-content {
-	margin-top: 5%;
+	padding-top: 5%;
 }
 
 .details-content {
 	display: flex;
-	margin-top: 10%;
+	padding-top: 5%;
+	font-size: .75em;
 }
 
 .title {
 	font-family: "Sacramento", Arial, serif;
 	font-size: 6em;
-	margin: 10% 0;
+	padding: 10% 0;
 }
 
 .secondary-color {
@@ -73,6 +74,11 @@ hr {
 	font-size: 2em;
 }
 
+.details-subtext {
+	font-size: 10px;
+	text-transform: uppercase;
+}
+
 .right {
 	width: 50%;
 	display: flex;
@@ -104,8 +110,8 @@ hr {
 }
 
 .topnav {
-	margin-bottom: 5%;
-	margin-top: 5%;
+	padding-bottom: 5%;
+	padding-top: 5%;
  	overflow: hidden;
 }
 
@@ -133,6 +139,7 @@ hr {
 	margin: auto;
 	padding: 10px;
 	text-align: left;
+	font-size: 12px;
 	width: 60%;
 }
 
@@ -148,16 +155,28 @@ hr {
   .registry {display: block;}
   .registry.web {display: none;}
   .registry.mobile {display: block;}
+  .registry img {
+		height: 100px;
+		width: 100px;
+	}
 }
 
 @media screen and (max-width: 600px) {
-  .details-content {display: block;}
+  .details-content {
+  	display: block;
+  	font-size: 0.5em;
+  	padding-top: 2%;
+  }
+  .details-subtext {
+  	font-size: 8px;
+  }
   .left {
   	width: 100%;
   	border: none;
   }
   .right {
-  	margin-top: 20px;
+  	padding-top: 20px;
+  	padding-bottom: 20px;
   	width: 100%;
   }
   .content-intro {
