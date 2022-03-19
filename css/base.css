@@ -243,3 +243,9 @@ hr {
     margin: 25% 0;
   }
 }
+
+@media screen and (max-width: 600px) {
+	.seating {
+		display: block;
+	}
+}
