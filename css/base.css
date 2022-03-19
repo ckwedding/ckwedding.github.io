@@ -184,6 +184,34 @@ hr {
   }
 }
 
+.content-intro a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.content-intro a:hover {
+	color: rgba(255, 215, 0, 0.75);
+}
+
+.seating {
+	display: inline-block;
+	width: 20%;
+	vertical-align: top;
+	padding-bottom: 5px;
+}
+
+.seating-title {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	color: rgba(255, 215, 0, 0.75);
+	font-family: "Sacramento", Arial, serif;
+	font-size: 1em;
+}
+
+.seating-content {
+	font-size: .75em;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
