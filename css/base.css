@@ -38,7 +38,7 @@ hr {
 .title {
 	font-family: "Sacramento", Arial, serif;
 	font-size: 6em;
-	padding: 10% 0;
+	padding: 5% 0;
 }
 
 .secondary-color {
@@ -212,6 +212,19 @@ hr {
 	font-size: .75em;
 }
 
+.covid {
+	padding: 1%;
+}
+
+.covid a {
+	color: rgba(255, 215, 0, 0.75);
+	text-decoration: none;
+}
+
+.covid a:hover {
+	color: #fff;
+}
+
 @media screen and (max-width: 600px) {
   .topnav a {display: none;}
   .topnav a.icon {
@@ -240,6 +253,6 @@ hr {
 @media screen and (max-width: 600px) {
   .title {
     font-size: 4em;
-    margin: 25% 0;
+    margin: 15% 0;
   }
 }
